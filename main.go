@@ -22,7 +22,7 @@ var (
 	LogFilePath    string // 日志文件
 	EnableDebug    bool   // 调试模式（详细日志）
 
-	ForwardPort = 443       // 要转发至的目标端口
+	ForwardPort = 6443       // 要转发至的目标端口
 	cfg         configModel // 配置文件结构
 )
 
